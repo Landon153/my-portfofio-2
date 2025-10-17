@@ -1,0 +1,47 @@
+{
+  "name": "landon-portfolio-website",
+  "author": {
+    "name": "Landon",
+    "email": "datnguyen2097@gmail.com",
+    "url": "https://alvalens.my.id"
+  },
+  "license": "GPL-3.0",
+  "copyright": "Copyright (C) 2025 Landon",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-sitemap": "node generate-sitemap.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@fullpage/react-fullpage": "^0.1.48",
+    "@tailwindcss/postcss": "^4.0.14",
+    "@vercel/analytics": "^1.5.0",
+    "eslint": "9.22.0",
+    "eslint-config-next": "15.2.3",
+    "framer-motion": "^12.5.0",
+    "next": "15.2.3",
+    "nprogress": "^0.2.0",
+    "postcss": "^8.5.3",
+    "prop-types": "^15.8.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "sharp": "^0.33.5",
+    "sitemap": "^8.0.0",
+    "swr": "^2.3.3",
+    "tailwindcss": "^4.0.14"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "15.2.3",
+    "@types/react": "19.1.5",
+    "cross-env": "^7.0.3"
+  }
+}
