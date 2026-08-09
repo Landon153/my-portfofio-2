@@ -14,7 +14,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-sitemap": "node generate-sitemap.js"
+    "generate-sitemap": "node --experimental-strip-types generate-sitemap.ts"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -23,12 +23,17 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@fullpage/react-fullpage": "^0.1.48",
+    "@iconify/icons-devicon": "^1.2.17",
+    "@iconify/icons-logos": "^1.2.36",
+    "@iconify/icons-mdi": "^1.2.48",
+    "@iconify/icons-simple-icons": "^1.2.74",
+    "@iconify/react": "^6.0.2",
     "@tailwindcss/postcss": "^4.0.14",
     "@vercel/analytics": "^1.5.0",
     "eslint": "9.22.0",
-    "eslint-config-next": "15.2.3",
+    "eslint-config-next": "^16.2.0-canary.69",
     "framer-motion": "^12.5.0",
-    "next": "15.2.3",
+    "next": "^16.2.0-canary.69",
     "nprogress": "^0.2.0",
     "postcss": "^8.5.3",
     "prop-types": "^15.8.1",
@@ -40,8 +45,11 @@
     "tailwindcss": "^4.0.14"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "15.2.3",
+    "@next/bundle-analyzer": "^16.2.0-canary.69",
+    "@types/node": "^26.1.2",
     "@types/react": "19.1.5",
-    "cross-env": "^7.0.3"
+    "@types/react-dom": "^19.2.4",
+    "cross-env": "^7.0.3",
+    "typescript": "^6.0.3"
   }
 }

@@ -4,9 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 @import "tailwindcss";
+@source "../app";
+@source "../components";
 
+/* Smooth scroll & GPU acceleration */
 html {
 	font-size: 17px !important;
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+	color-scheme: light;
 }
 
 @media (max-width: 1268px) {
@@ -25,6 +35,14 @@ body {
 	font-family: 'Poppins', sans-serif !important;
 	color: black;
 	background-color: rgb(230, 230, 230);
+	text-rendering: optimizeLegibility;
+	transition: background-color 300ms ease, color 300ms ease;
+}
+
+/* Force GPU compositing for animated elements */
+.section *, [style*="transform"] {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
