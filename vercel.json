@@ -1,4 +1,4 @@
 {
-  "installCommand": "corepack pnpm@11.3.0 install --frozen-lockfile",
+  "installCommand": "corepack pnpm@11.3.0 install --frozen-lockfile --ignore-scripts",
   "buildCommand": "corepack pnpm@11.3.0 build"
 }
