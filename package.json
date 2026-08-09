@@ -12,7 +12,7 @@
   "packageManager": "pnpm@11.3.0",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint",
     "generate-sitemap": "node --experimental-strip-types generate-sitemap.ts"

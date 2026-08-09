@@ -21,6 +21,14 @@ const nextConfig: NextConfig = {
 	turbopack: {
 		root: __dirname,
 	},
+	webpack: (config) => {
+		config.module.rules.push({
+			test: /\.pdf$/i,
+			type: "asset/source",
+		});
+
+		return config;
+	},
 	async headers() {
 		return [
 			{
