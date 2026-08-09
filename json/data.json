@@ -2,35 +2,31 @@
   "Projects": [
     {
       "show": true,
-      "title": "Invervyou AI",
+      "title": "Digitrad Marketplace Trading International",
       "desc": [
-        "AI Based interview Preparation Website created to help fresh graduates and job seekers prepare for interviews and optimize their CV through AI-powered features. The website is built using Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL (TiDB).",
-        "The website has a few features such as a dashboard for the user to see their interview preparation progress, a CV analysis and optimization feature, and a few AI-powered interview questions that can be answered by the user which will be analyzed by the AI to provide feedback. The analysis contains the answer analysis, the gesture analysis, and a material recommendation to improve the user's performance.",
-        "The website also has a token mechanism that allows the user to purchase tokens to access the AI-powered features. Integrated with Indonesian payment gateway (Midtrans) to allow users to purchase tokens easily."
+        "DiGiTRAD is a digital service platform designed to simplify international trade for businesses. The website introduces an integrated ecosystem of cross-border marketplace access, international payments, overseas logistics, and trade finance, helping companies manage complex import and export processes through a clear and unified digital experience.",
+        "The project involved transforming a complex B2B service offering into a responsive and user-friendly corporate website. The interface was organized into clearly defined service sections with multilingual content, conversion-focused calls to action, and interactive estimation features, enabling visitors to quickly understand the platform's value and identify the solutions most relevant to their business needs.",
+        "From a development perspective, the project focused on responsive behavior, reusable UI components, maintainable frontend architecture, performance, and usability across different devices. The resulting website provides DiGiTRAD with a professional global presence while effectively communicating its mission to make cross-border trade simpler, faster, and more accessible."
       ],
       "year": "2025",
-      "preview": "https://www.intervyou.me",
+      "preview": "https://digitrad.world/en",
       "code": "",
-      "thumbnail": "/image/projects/web/intervyou/intervyou-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/digitrad-marketplace/digitrad-marketplace-thumbnail.png",
       "images": [
-        "/image/projects/web/intervyou/intervyou-1.png",
-        "/image/projects/web/intervyou/intervyou-2.png",
-        "/image/projects/web/intervyou/intervyou-3.png",
-        "/image/projects/web/intervyou/intervyou-4.png",
-        "/image/projects/web/intervyou/intervyou-5.png"
+        "/image/projects/web/digitrad-marketplace/digitrad-marketplace-crossborder.png",
+        "/image/projects/web/digitrad-marketplace/digitrad-marketplace-payment.png",
+        "/image/projects/web/digitrad-marketplace/digitrad-marketplace-logistics.png"
       ],
       "tech": [
         "NextJS",
         "Typescript",
-        "Shadcn UI",
+        "PWA",
         "Tailwind CSS",
-        "Prisma",
-        "MySQL",
-        "Midtrans",
-        "Gemini API",
+        "TypeOrm",
+        "Postgress",
         "GCP"
       ], 
-      "slug": "intervyou",
+      "slug": "digitrad-marketplace-trading-international",
       "category": [1, 2]
     },
     {
@@ -62,193 +58,373 @@
     },
     {
       "show": true,
-      "title": "Mind Mirror",
+      "title": "Coucou",
       "desc": [
-        "LMS website that integrated Generative AI feauture to track studnet various keys like mood, behavior, and cognitive ability when learning. The website is built using Laravel as a fullstack framework. In this website teacher can track student mood and other metrics data based on the material students accessed.",
-        "The website also has a few features such as a dashboard for the teacher to see the student's data, a material page, and a quiz page. The website also has a few charts to visualize the student's data. The website provided the student captured data that can be downloaded by the teacher.",
-        "The website also has a features to export the lecture data such as the mood, behaviour, and cognitive score to a xlxs file that can be downloaded by the teacher."
+        "Coucou is a friend-matching application designed to help users discover and connect with new people through a swipe-based experience inspired by Tinder. The platform matches users based on shared interests, location, personality, and preferred activities, then enables mutual connections to start conversations and build meaningful friendships. The project focused on creating an intuitive mobile-first interface, smooth matching interactions, clear user profiles, real-time messaging, and a safe, engaging social experience."
       ],
-      "year": "2024",
+      "year": "2025",
+      "preview": "https://apps.apple.com/us/app/coucou/id1506143712?l=vi",
+      "code": "",
+      "thumbnail": "/image/projects/web/coucou/coucou-thumbnail.png",
+      "images": [
+        "/image/projects/web/coucou/coucou-safety.png",
+        "/image/projects/web/coucou/coucou-note-boost.png",
+        "/image/projects/web/coucou/coucou-liked-chat.png"
+      ],
+      "tech": [
+        "React Native",
+        "Golang",
+        "MongoDB",
+        "Redis",
+        "AWS"
+      ],
+      "slug": "coucou",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Vivid Plus",
+      "desc": [
+        "Vivid is an affiliate advertising platform that connects users, publishers, and major Korean brands through performance-driven promotional campaigns. The platform enables brands to showcase products, run targeted offers, and expand their reach through affiliate partners, while users can discover promotions, engage with branded content, and access exclusive deals. The project focused on building a responsive and scalable web experience with campaign management, brand showcases, tracking flows, conversion-focused interfaces, and reusable components to support a growing network of advertisers and affiliate partners."
+      ],
+      "year": "2025",
       "preview": "",
       "code": "",
-      "thumbnail": "/image/projects/web/mind-mirror/mind-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/vivid-plus/vivid-plus-thumbnail.png",
       "images": [
-        "/image/projects/web/mind-mirror/mind1.png",
-        "/image/projects/web/mind-mirror/mind2.png",
-        "/image/projects/web/mind-mirror/mind3.png",
-        "/image/projects/web/mind-mirror/mind4.png",
-        "/image/projects/web/mind-mirror/mind5.png"
+        "/image/projects/web/vivid-plus/vivid-plus-home.png",
+        "/image/projects/web/vivid-plus/vivid-plus-brand-list.png",
+        "/image/projects/web/vivid-plus/vivid-plus-weekly-brand.png",
+        "/image/projects/web/vivid-plus/vivid-plus-category.png"
       ],
       "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
+        "Angular",
+        "NestJS",
         "MySQL",
-        "jQuery",
-        "DataTables"
-      ], 
-      "slug": "mind-mirror",
-      "category": [1, 2]
+        "Redis",
+        "Naver Cloud"
+      ],
+      "slug": "vivid-plus",
+      "category": [1]
     },
     {
       "show": true,
-      "title": "Javanese Translation Website",
+      "title": "Prezem",
       "desc": [
-        "A Javanese ngoko - krama translation website that I created as a collaborative project with my friends. The website is built using the original Transformer architecture by Vaswani et al. (2017). Built with Python, TensorFlow, Flask, HTML, and CSS, the website allows users to input text in Javanese krama and receive the corresponding ngoko translation.", 
-        "The website is designed to be simple to use, with a clean and modern interface that appeals to a wide audience. Users can input text in Javanese krama and receive the corresponding ngoko translation. The Project also provide ipynb file for the model training and the model itself."
+        "Prezem is a lifestyle discovery platform that helps users explore trending popup stores, exhibitions, festivals, and unique local experiences across Korea. The app brings together event information, nearby recommendations, and location-based discovery, making it easier for users to find interesting places and activities in real time.",
+        "The platform enhances the offline discovery experience through interactive maps, venue details, user reviews, reservation-related information, and community-driven updates. By combining real-time content with personalized recommendations, Prezem helps users decide where to go, what to experience, and which events are worth visiting.",
+        "From a development perspective, the project focused on delivering a smooth mobile experience with responsive interfaces, map-based navigation, reusable UI components, dynamic content handling, and user-friendly interaction flows. The result is an engaging platform that connects digital discovery with real-world experiences while supporting a growing ecosystem of events, venues, and local communities."
       ],
-      "year": "2024",
-      "preview": "",
-      "code": "https://github.com/Alvalens/web-javanese-translation",
-      "thumbnail": "/image/projects/ai/javanese-translation/javanese-translation-thumbnail.jpg",
+      "year": "2025",
+      "preview": "https://apps.apple.com/kr/app/%ED%94%84%EB%A0%88%EC%A0%AC-no-1-%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4-%EC%A0%95%EB%B3%B4-%EC%95%B1/id6446088313",
+      "code": "",
+      "thumbnail": "/image/projects/web/prezem/prezem-thumbnail.png",
       "images": [
-        "/image/projects/ai/javanese-translation/javanese-translation1.png",
-        "/image/projects/ai/javanese-translation/javanese-translation2.png"
+        "/image/projects/web/prezem/prezem-discovery.png",
+        "/image/projects/web/prezem/prezem-online-popup-feed.png",
+        "/image/projects/web/prezem/prezem-home-ranking.png"
       ],
       "tech": [
-        "Transformers",
-        "Python",
-        "Tensorflow",
-        "Flask",
-        "HTML",
-        "CSS"
-      ], 
-      "slug": "javanese-translation",
-      "category": [2]
-    },
-    {
-      "show": true,
-      "title": "SIPETI: Heart Prediction Website",
-      "desc": [
-        "This is a Machine Learning based website that I created as a collage project. The website is built using Decision Tree algorithm and Flask. The website is a heart attack prediction website that can predict whether a person will get a heart attack or not based on their health condition.",
-        "In this website user can predict, customize dataset, customize model, and see the model performance. The website also has a few features such as a dashboard for the user to see the model performance, and a few charts to visualize the decision tree model."
-      ],
-      "year": "2024",
-      "preview": "",
-      "code": "https://github.com/Alvalens/heart-attack-prediction",
-      "thumbnail": "/image/projects/ai/heart-attack-prediction/heart-attack-prediction-thumbnail.jpg",
-      "images": [
-        "/image/projects/ai/heart-attack-prediction/heart-attack1.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack2.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack3.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack4.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack5.png"
-      ],
-      "tech": [
-        "Decision Tree",
-        "Python",
-        "Sklearn",
-        "Flask",
-        "HTML",
-        "CSS"
-      ], 
-      "slug": "heart-attack",
-      "category": [2]
-    },
-    {
-      "show": true,
-      "title": "Generative Trivia",
-      "desc": [
-        "A generative trivia website built with Next.js, Firebase, NextAuth, Google OAuth, and TypeScript. Users can generate trivia questions for predefined school subjects and answer them with a unique interactive input style. The application supports user authentication with Google and stores data in Firestore.",
-        "The project is a culmination of my passion for web development and my desire to create a fun and interactive learning platform. The website is designed to be user-friendly and engaging, with a clean and modern interface that appeals to a wide audience. The trivia questions are generated using the Gemini API, which provides a diverse range of questions for users to answer."
-      ],
-      "year": "2024",
-      "preview": "https://generative-trivia.vercel.app/",
-      "code": "https://github.com/Alvalens/generative-trivia",
-      "thumbnail": "/image/projects/web/trivia/trivia-thumbnail.png",
-      "images": [
-        "/image/projects/web/trivia/trivia1.png",
-        "/image/projects/web/trivia/trivia2.png",
-        "/image/projects/web/trivia/trivia3.png"
-      ],
-      "tech": [
+        "ReactJs",
         "NextJS",
-        "Shadcn UI",
-        "Tailwind CSS",
-        "Firebase",
-        "Gemini API"
-      ], 
-      "slug": "trivia",
-      "category": [1, 2]
+        "NestJS",
+        "MySQL",
+        "Redis",
+        "AWS"
+      ],
+      "slug": "prezem",
+      "category": [1]
     },
     {
       "show": true,
-      "title": "Saku Senyum",
+      "title": "Honeen",
       "desc": [
-        "Saku Senyum is a website that I created as a Fullstack Developer in PT Hafdzahmedia based on client request. The website is a sales management for UMKM or small business. The website is built using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and MySQL.",
-        "The website has a few features such as a dashboard for the user to manage their business sales, a statistic page, and a sales report page. User can see their sales performance in a fancy chart to make it easier to understand. The user also can export their sales report to a PDF file which can be printed or saved to their device."
+        "HONEEN is a self-directed wedding planning platform designed to help couples manage the entire preparation process without relying on a traditional wedding planner. The platform combines personalized wedding checklists, schedule and expense management, curated wedding brands, and product discovery, allowing users to organize their plans while creating a wedding that reflects their own preferences and style.",
+        "The platform also provides transparent wedding product listings and reservation experiences, helping users discover and compare services from different brands more easily. In addition, its anonymous community, NoName, creates a space where users can exchange real wedding experiences, recommendations, and practical information, reducing the information gap that often makes wedding preparation complicated and stressful.",
+        "From a development perspective, the project focused on building a mobile-first and highly interactive experience with reusable UI components, dynamic wedding planning workflows, brand and product discovery, reservation flows, community features, and personalized user data. The resulting platform brings planning, discovery, booking, and community interaction into a unified digital experience, making wedding preparation more organized, transparent, and enjoyable."
       ],
-      "year": "2024",
-      "thumbnail": "/image/projects/web/saku-senyum/saku-senyum-thumbnail.png",
+      "year": "2025",
+      "preview": "https://honeen.com/",
+      "code": "",
+      "thumbnail": "/image/projects/web/honeen/honeen-thumbnail.png",
       "images": [
-        "/image/projects/web/saku-senyum/saku-senyum1.png",
-        "/image/projects/web/saku-senyum/saku-senyum2.png",
-        "/image/projects/web/saku-senyum/saku-senyum3.png",
-        "/image/projects/web/saku-senyum/saku-senyum4.png"
+        "/image/projects/web/honeen/honeen-home.png",
+        "/image/projects/web/honeen/honeen-magazine.png",
+        "/image/projects/web/honeen/honeen-brand.png",
+        "/image/projects/web/honeen/honeen-overview.jpeg"
       ],
       "tech": [
+        "ReactJs",
         "NextJS",
+        "Golang",
+        "MySQL",
+        "Redis",
+        "AWS"
+      ],
+      "slug": "honeen",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Miraen",
+      "desc": [
+        "Miraen is a digital learning platform developed for schools and educational institutions, helping students and teachers manage classroom-based learning through a unified mobile experience. Students can follow class announcements, check learning schedules aligned with their school curriculum, access teacher-shared materials, and study together with classmates through structured digital content.",
+        "The platform supports different stages of the learning process, including lesson preparation, in-class activities, collaborative learning, assessments, homework, review, and supplementary study. Teachers can customize class schedules, distribute subject-specific learning resources, use concept videos and interactive learning cards, and provide personalized materials based on students' progress and learning levels.",
+        "From a development perspective, the project focused on creating an intuitive education-focused interface capable of handling structured course content, classroom schedules, learning materials, assignments, progress information, and teacher-student interactions. The resulting application provides schools with a centralized digital learning environment that supports both classroom activities and independent study across mobile devices."
+      ],
+      "year": "2025",
+      "preview": "https://apps.apple.com/kr/app/%EB%AF%B8%EB%9E%98%EC%97%94-%EC%B4%88%EC%BD%94%ED%81%B4%EB%9E%98%EC%8A%A4-%ED%95%99%EA%B5%90-%EB%B0%8F-%EA%B8%B0%EA%B4%80%EC%9A%A9/id6474421602?l=en-GB",
+      "code": "",
+      "thumbnail": "/image/projects/web/miraen/miraen-thumbnail.png",
+      "images": [
+        "/image/projects/web/miraen/miraen-class.png",
+        "/image/projects/web/miraen/miraen-learning-report.png"
+      ],
+      "tech": [
+        "VueJS",
+        "Golang",
+        "Python",
+        "MariaDB",
+        "DynamoDB",
+        "Redis",
+        "AWS"
+      ],
+      "slug": "miraen",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "OCMR",
+      "desc": [
+        "OCMR is an e-commerce and service platform focused on luxury product care, repair, and restoration, helping customers extend the life of high-end fashion items such as bags, shoes, accessories, and other premium goods. The platform enables users to explore repair services, submit product details, receive service recommendations, track their repair process, and manage orders through a streamlined digital experience. The project focused on building a premium, user-friendly interface with clear service presentation, responsive layouts, order and request flows, product information management, and reusable components that reflect the quality and trust expected from a luxury-focused service."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/ocmr/ocmr-thumbnail.png",
+      "images": [
+        "/image/projects/web/ocmr/ocmr-request-detail.png",
+        "/image/projects/web/ocmr/ocmr-proposal.png",
+        "/image/projects/web/ocmr/ocmr-request-summary.png",
+        "/image/projects/web/ocmr/ocmr-overview.jpeg"
+      ],
+      "tech": [
+        "Android",
+        "Ios",
+        "Angular",
+        "NestJS",
+        "Postgress",
+        "Redis",
+        "AWS"
+      ],
+      "slug": "ocmr",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "MetaGalaxia Marketplace",
+      "desc": [
+        "MetaGalaxia is a curated NFT marketplace operated by Galaxia Metaverse, designed to connect creators, brands, and collectors through blockchain-based digital assets. The platform provides dedicated experiences for NFT drops, airdrops, marketplace trading, and curated collections, while also supporting creators who want to introduce and distribute their work to a wider Web3 audience.",
+        "The platform goes beyond traditional digital collectibles by supporting art-focused NFTs as well as utility-based assets connected to real-world products, coupons, and tickets. Users can discover new collections, participate in limited releases and promotional events, search the marketplace, and interact with a growing ecosystem of creators and digital content through a centralized experience.",
+        "From a development perspective, the project focused on building a responsive and visually engaging marketplace experience with reusable UI components, collection and NFT detail views, search and discovery flows, event-driven content, user authentication, and creator-focused interfaces. The resulting platform makes blockchain-based digital assets easier to discover and interact with while providing a scalable foundation for NFT commerce, promotional campaigns, and creator ecosystems."
+      ],
+      "year": "2025",
+      "preview": "https://www.metagalaxia.kr/",
+      "code": "",
+      "thumbnail": "/image/projects/web/metagalaxia-marketplace/metagalaxia-marketplace-thumbnail.png",
+      "images": [
+        "/image/projects/web/metagalaxia-marketplace/metagalaxia-mobile-wallet.png",
+        "/image/projects/web/metagalaxia-marketplace/metagalaxia-detail-showcase.png",
+        "/image/projects/web/metagalaxia-marketplace/metagalaxia-new-collection.png",
+        "/image/projects/web/metagalaxia-marketplace/metagalaxia-nft-detail.png"
+      ],
+      "tech": [
+        "React Native",
+        "Golang",
+        "MongoDB",
+        "AWS"
+      ],
+      "slug": "metagalaxia-marketplace",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Payme Merchant Dashboard",
+      "desc": [
+        "PayME Merchant Dashboard is a web-based management platform designed for merchants to monitor and operate their payment activities from a centralized workspace. The system enables merchants to manage account and business information, create and share payment links, track transactions, review payment statuses, and analyze key performance metrics through reports and visual dashboards. The project focused on building a clear and efficient admin experience with reusable UI components, data tables, filtering and search, transaction detail views, statistics, and responsive layouts, helping merchants manage daily operations and gain better visibility into their payment performance."
+      ],
+      "year": "2025",
+      "preview": "https://mc.payme.vn/login",
+      "code": "",
+      "thumbnail": "/image/projects/web/payme-merchant-dashboard/payme-merchant-dashboard-thumbnail.png",
+      "images": [
+        "/image/projects/web/payme-merchant-dashboard/payme-merchant-customers.png",
+        "/image/projects/web/payme-merchant-dashboard/payme-merchant-login.png"
+      ],
+      "tech": [
+        "Microservices",
+        "MoculerJS",
+        "HapiJS",
+        "ReactJS",
+        "MongoDB",
+        "K8s",
+        "AWS",
+        "Redis",
+        "RabbitMQ"
+      ],
+      "slug": "payme-merchant-dashboard",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "SSCC SIMS",
+      "desc": [
+        "SSC Tuition Payment is a digital school payment platform designed to simplify tuition fee collection for schools, students, and parents. The system provides multiple cashless payment options through banking applications, e-wallets, QR codes, and other payment partners, allowing parents to conveniently review and complete tuition payments without visiting the school in person.",
+        "The platform connects tuition information with a wide network of payment channels and uses unique SSC IDs to identify students and retrieve corresponding payment details. By centralizing tuition payment instructions and supporting services such as ZaloPay, ShopeePay, banking apps, and QR-based transfers, the system helps schools improve fee collection efficiency while giving parents greater flexibility in how they make payments.",
+        "From a development perspective, the project focused on building a clear and responsive education-finance experience with tuition information management, payment workflows, student identification, transaction-related interfaces, and reusable UI components. The resulting platform supports the digitalization of school financial operations and provides a more convenient, transparent, and scalable way for educational institutions to manage tuition payments."
+      ],
+      "year": "2025",
+      "preview": "http://hocphi.dcv.vn/",
+      "code": "",
+      "thumbnail": "/image/projects/web/sscc-sims/sscc-sims-thumbnail.png",
+      "images": [
+        "/image/projects/web/sscc-sims/sscc-sims-permission-list.jpg",
+        "/image/projects/web/sscc-sims/sscc-sims-user-management.jpg",
+        "/image/projects/web/sscc-sims/sscc-sims-invoice-flow.jpg",
+        "/image/projects/web/sscc-sims/sscc-sims-payment-guide.jpg"
+      ],
+      "tech": [
+        "HapiJS",
+        "ReactJS",
+        "MongoDB",
+        "AWS",
+        "Redis",
+        "RabbitMQ"
+      ],
+      "slug": "sscc-sims",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Standage Payment",
+      "desc": [
+        "DigiTrad Payments is a blockchain-enabled trade settlement platform designed to make international transactions faster, safer, and more transparent. By combining stablecoin-based payments, electronic trade documents, and a conditional digital safe, the service helps importers and exporters reduce transfer delays, transaction costs, currency risks, and uncertainty when working with overseas partners.",
+        "The project involved translating a complex fintech and international trade workflow into a clear, conversion-focused web experience. The content was structured around business challenges, service benefits, settlement architecture, step-by-step transaction flows, comparisons, and frequently asked questions, making concepts such as stablecoins, eBL, escrow, and milestone-based payment releases easier for business users to understand.",
+        "From a development perspective, the work focused on responsive layouts, reusable content sections, multilingual presentation, accessible interactions, performance, and maintainable frontend implementation. The resulting product pages communicate the platform's technical value without overwhelming visitors, while guiding prospective clients from identifying their trade payment challenges to understanding the solution and submitting an inquiry."
+      ],
+      "year": "2025",
+      "preview": "https://digitrad.trade/payment",
+      "code": "",
+      "thumbnail": "/image/projects/web/standage-payment/standage-payment-thumbnail.png",
+      "images": [
+        "/image/projects/web/standage-payment/standage-payment-buyer-task.jpg",
+        "/image/projects/web/standage-payment/standage-payment-mock-pc.png",
+        "/image/projects/web/standage-payment/standage-payment-seller-task.jpg"
+      ],
+      "tech": [
+        "Blockchain",
+        "Solidity",
+        "NextJS",
+        "NestJs",
+        "Golang",
         "Typescript",
-        "Shadcn UI",
+        "PWA",
         "Tailwind CSS",
-        "Prisma",
-        "MySQL"
+        "TypeOrm",
+        "Postgress",
+        "GCP"
       ], 
-      "slug": "saku-senyum",
+      "slug": "standage-payment",
+      "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "Standage Logistic",
+      "desc": [
+        "The STANDAGE corporate website presents the company's vision of making global trade freer, simpler, and more accessible through a combination of technology and operational expertise. The platform introduces its international sourcing network, fully managed trade services, and DigiTrad digital solutions, providing businesses with a clear overview of the support available throughout the cross-border trade lifecycle.",
+        "The project involved organizing a broad range of corporate and service information into a structured, user-friendly digital experience. Dedicated sections for services, implementation case studies, seminars, company information, recruitment, and inquiries help different audiences quickly discover relevant content, understand STANDAGE's business value, and navigate naturally toward the appropriate service or contact channel.",
+        "From a development perspective, the implementation focused on responsive layouts, reusable content components, multilingual navigation, intuitive information architecture, performance, and long-term maintainability. The resulting website creates a consistent digital identity across STANDAGE's service ecosystem while serving as a scalable communication platform for corporate updates, customer success stories, events, recruitment, and business inquiries."
+      ],
+      "year": "2025",
+      "preview": "https://wp.standage.co.jp/us/",
+      "code": "",
+      "thumbnail": "/image/projects/web/standage-logistic/standage-logistic-thumbnail.png",
+      "images": [
+        "/image/projects/web/standage-logistic/standage-logistic-hero.png",
+        "/image/projects/web/standage-logistic/standage-logistic-vision.png",
+        "/image/projects/web/standage-logistic/standage-logistic-managed-trade.png",
+        "/image/projects/web/standage-logistic/standage-logistic-case-studies.png"
+      ],
+      "tech": [
+        "NextJS",
+        "NestJs",
+        "Typescript",
+        "PWA",
+        "Tailwind CSS",
+        "TypeOrm",
+        "Postgress",
+        "GCP"
+      ], 
+      "slug": "standage-logistic",
       "category": [1]
     },
     {
       "show": true,
-      "title": "Simadun",
+      "title": "Standage Forwarding Pro",
       "desc": [
-        "Simadun is an Exam Management System developed for doctoral students in the Department of Electrical Engineering and Informatics Universitas Negeri Malang. The system facilitates the management of five different types of examinations, allowing students to apply for exams with ease. Professors and program heads can efficiently oversee the exam processes.",
-        
-        "With Simadun, students can submit their exam applications online, track their application status, and receive timely notifications regarding their exam schedules. Program heads and relevant lecturers have access to comprehensive dashboards where they can manage exam requests, allocate resources, and monitor overall exam logistics. "
+        "Forwarding PRO is a cloud-based logistics management platform designed to streamline quotation, rate management, booking, and shipment operations for shippers and freight forwarders. By centralizing freight rates, project information, documents, communication, and operational progress, the platform replaces fragmented workflows across spreadsheets, email, and chat with a single, transparent workspace.",
+        "The project involved translating complex forwarding processes into an intuitive digital experience for two key user groups. Shippers can request and compare quotations from multiple forwarders, confirm bookings, track progress, and maintain shipment audit records, while forwarders can manage rate databases, automate quotation generation, standardize margin rules, and coordinate sales, operations, and accounting through a unified case-management flow.",
+        "From a development perspective, the implementation focused on responsive data-rich interfaces, reusable UI components, clear status visualization, role-based workflows, multilingual content, performance, and maintainable frontend architecture. The resulting platform improves operational accuracy and collaboration while providing a scalable foundation for integrations with ERP systems, transportation management tools, customs partners, and other services within the DigiTrad ecosystem."
       ],
-      "year": "2024",
-      "thumbnail": "/image/projects/web/simadun/simadun-thumbnail.png",
+      "year": "2025",
+      "preview": "https://digitrad.trade/forwarding-pro/",
+      "code": "",
+      "thumbnail": "/image/projects/web/standage-forwarding-pro/standage-forwarding-pro-thumbnail.png",
       "images": [
-        "/image/projects/web/simadun/simadun1.png",
-        "/image/projects/web/simadun/simadun2.png",
-        "/image/projects/web/simadun/simadun3.png",
-        "/image/projects/web/simadun/simadun4.png",
-        "/image/projects/web/simadun/simadun5.png"
+        "/image/projects/web/standage-forwarding-pro/standage-forwarding-pro-product-info.jpg",
+        "/image/projects/web/standage-forwarding-pro/standage-forwarding-pro-related-files.jpg",
+        "/image/projects/web/standage-forwarding-pro/standage-forwarding-pro-estimate.jpg",
+        "/image/projects/web/standage-forwarding-pro/standage-forwarding-pro-prototype.jpg"
       ],
       "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
-        "MySQL",
-        "jQuery",
-        "DataTables"
-
+        "NextJS",
+        "NestJs",
+        "Typescript",
+        "Tailwind CSS",
+        "TypeOrm",
+        "Postgress",
+        "AWS"
       ], 
-      "slug": "simadun",
+      "slug": "standage-forwarding-pro",
       "category": [1]
     },
     {
       "show": true,
-      "title": "LUDOang",
+      "title": "Payme E-wallet",
       "desc": [
-        "LUDOang is a game that my team and I created for a final project in my university. The game is built python, pygame, and OpenGL. The game is a 2D game that is inspired by a Ludo game. The game has a few features such randomZone, and a 3D dice.",
-        "RandomZone is a feature that allows the player to get a random number of steps. The 3D dice is a feature that allows the player to roll a 3D dice. The game also has a few other features menuy screen and also loading screen.", "Beside that the game also has a audio theme that will play when the game is started. The game also has a few sound effects such as dice roll sound, and a sound when the player win the game."
+        "PayME is a social payment and digital wallet platform designed to simplify everyday money transfers and online payments. The app allows users to send or request money without sharing bank account details, split expenses with friends or colleagues, and complete transactions through payment links shared across messaging and social platforms.",
+        "The platform extends this experience with features such as PayME Keyboard and PayME Link. PayME Keyboard enables users to create and complete payment requests directly while chatting, while PayME Link allows individuals and businesses to create personalized payment pages without building a website or integrating a separate payment system.",
+        "From a development perspective, the project focused on building a secure and intuitive fintech experience with streamlined transaction flows, responsive mobile interfaces, payment request management, deep-link interactions, personalized payment pages, and reusable UI components. The resulting application makes digital payments more accessible for both individual users and online merchants while supporting fast, convenient transactions across multiple communication channels."
       ],
-      "year": "2023",
-      "preview": "https://github.com/Alvalens/ludo-game/releases/tag/pre-release",
-      "code": "https://github.com/Alvalens/ludo-game",
-      "thumbnail": "/image/projects/other/LUDOang/ludo-thumbnail.png",
+      "year": "2025",
+      "preview": "https://play.google.com/store/apps/details?id=com.payme.app.user&hl=vi",
+      "code": "",
+      "thumbnail": "/image/projects/web/payme-e-wallet/payme-e-wallet-thumbnail.png",
       "images": [
-        "/image/projects/other/LUDOang/ludo1.png",
-        "/image/projects/other/LUDOang/ludo2.png",
-        "/image/projects/other/LUDOang/ludo3.png"
+        "/image/projects/web/payme-e-wallet/payme-e-wallet-mobile-flow.png",
+        "/image/projects/web/payme-e-wallet/payme-e-wallet-services.png"
       ],
       "tech": [
-        "Python",
-        "Pygame",
-        "OpenGL"
-      ], 
-      "slug": "ludoang",
-      "category": [9]
+        "React Native",
+        "HapiJs",
+        "MoculerJS",
+        "MongoDB",
+        "Redis",
+        "AWS",
+        "K8s"
+      ],
+      "slug": "payme-e-wallet",
+      "category": [1]
     },
     {
       "show": true,
@@ -270,137 +446,6 @@
         "Tailwind CSS"
       ],
       "slug": "vicc",
-      "category": [1]
-    },
-    {
-      "show": true,
-      "title": "React Realtime Chat",
-      "desc": [
-        "My ambitious project that delves into the world of interactive web development using React. This project is a realtime chat application that allows users to create chat rooms and chat with other users in realtime. The application is built using React, Firebase, and Daisy UI.",
-        "This project is my second react project and my first project using Firebase. I learned a lot about how to use Firebase and how to use React to create a realtime application. I also learned how to use Daisy UI, a CSS framework that is built on top of Tailwind CSS. "
-      ],
-      "year": "2023",
-      "preview": "https://react-chat-rouge.vercel.app",
-      "code": "https://github.com/Alvalens/react-realtime-chat",
-      "thumbnail": "/image/projects/web/react-chat/chat-thumbnail.png",
-      "images": [
-        "/image/projects/web/react-chat/chat1.png",
-        "/image/projects/web/react-chat/chat2.png",
-        "/image/projects/web/react-chat/chat3.png",
-        "/image/projects/web/react-chat/chat4.png"
-      ],
-      "tech": [
-        "JavaScript",
-        "React",
-        "React Router",
-        "Firebase",
-        "Daisy UI"
-      ],
-      "slug": "react-chat",
-      "category": [1]
-    },
-    {
-      "show": true,
-      "title": "React Tools",
-      "desc": [
-        "React Tools is a groundbreaking and user-friendly project that brings together a comprehensive collection of tools and components crafted with cutting-edge technologies, including React, React Router, and TailwindCSS. What sets this project apart is that it's not just a suite of powerful features, but it's also a significant milestone as it marks my very first venture into the world of React development.",
-
-        "Unlike traditional web applications, React Tools cleverly utilizes browser local storage, eliminating the need for external databases. This not only ensures seamless performance but also prioritizes user data privacy. ",
-
-        "The Todo List keeps tasks in check with intuitive task management capabilities, ensuring you never miss a beat. The note-taking feature provides a hassle-free way to jot down ideas and crucial information, accessible whenever inspiration strikes. Additionally, our robust expense tracker simplifies financial management by recording and categorizing expenses, delivering insightful spending analysis."
-      ],
-      "year": "2023",
-      "preview": "https://react-tools-flax.vercel.app",
-      "code": "https://github.com/Alvalens/react-tools",
-      "thumbnail": "/image/projects/web/tools/tools-thumbnail.png",
-      "images": [
-        "/image/projects/web/tools/tools.png",
-        "/image/projects/web/tools/tools1.png",
-        "/image/projects/web/tools/tools2.png",
-        "/image/projects/web/tools/tools3.png"
-      ],
-      "tech": [
-        "Javascript",
-        "React",
-        "React Router",
-        "TailwindCSS"
-      ],
-      "slug": "react-tools",
-      "category": [1]
-    },
-    {
-      "show": true,
-      "title": "Aleph Discord Bot",
-      "desc": [
-        "Aleph is a Discord bot that I created for my dircord server to use. The bot is built using Python and the discord.py library. The bot has image grabber feauture that takes argument (keywords) and returns an image from the internet.", "Other than that this bot has a few other features such as utility command to delete a messages, and a command to get the server's ping. This bot is still in development and I plan to add more features in the future."],
-      "year": "2023",
-      "preview": "",
-      "code": "https://github.com/Alvalens/aleph-discord-bot",
-      "thumbnail": "/image/projects/other/bot/bot-thumbnail.png",
-      "images": [
-        "/image/projects/other/bot/bot1.png",
-        "/image/projects/other/bot/bot2.png"
-      ],
-      "tech": [
-        "Python",
-        "Discord.py",
-        "Google Serp API"
-      ],
-      "slug": "aleph-discord-bot",
-      "category": [9]
-    }, 
-    {
-      "show": true,
-      "title": "LPTK Cup 2023 Website",
-      "desc": [
-        "LPTK Cup UM is a website that I created for a competition held by  the Universitas Negeri Malang. The website is mainly built using Laravel and Bootstrap. The website has a few features such as a registration form, a login system, article system, file upload,  and a dashboard for the admin to manage the contents.",
-        "This project is my second freelance project, this project is not as big as my first freelance project but I learned a lot from this project. I learn how to manage a project and how to work with a team."
-      ],
-      "year": "2023",
-      "preview": "",
-      "code": "",
-      "thumbnail": "/image/projects/web/lptk/lptk1.png",
-      "images": [
-        "/image/projects/web/lptk/lptk1.png",
-        "/image/projects/web/lptk/lptk2.png",
-        "/image/projects/web/lptk/lptk3.png",
-        "/image/projects/web/lptk/lptk4.png"
-      ],
-      "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
-        "MySQL",
-        "jQuery",
-        "DataTables"
-      ],
-      "slug": "lptk-cup-2023",
-      "category": [1]
-    }, 
-    {
-      "show": true,
-      "title": "NU INO Website",
-      "desc": [
-        "My first freelance project. This project is a website for a School based on a JALAKAR curriculum. The website is built mainly using Laravel and Bootstrap.", "This website is LMS like system, have a user management, user auth, quiz and material for student and FAQ",  "In this project I learned how to work with a team and how to manage a project. I also learned new library such as livewire and alpine.js."],
-      "year": "2023",
-      "preview": "",
-      "code": "",
-      "thumbnail": "/image/projects/web/ino/ino1.png",
-      "images": [
-        "/image/projects/web/ino/ino1.png",
-        "/image/projects/web/ino/ino2.png",
-        "/image/projects/web/ino/ino3.png"
-      ],
-      "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
-        "Livewire",
-        "MySQL",
-        "jQuery",
-        "DataTables"
-      ],
-      "slug": "nu-ino-website",
       "category": [1]
     }
   ]
