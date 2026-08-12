@@ -5,28 +5,27 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
-import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 import type { ReactNode } from "react";
 
 export const metadata = {
-    metadataBase: new URL("https://www.alvalens.my.id"),
+    metadataBase: new URL("https://landon-portfolio-eta.vercel.app/"),
     title: "Landon | Portofolio",
 
     description:
 		"My name is Landon, I'm a web developer and I'm passionate about it. I'm currently working as Software Engineer.",
 
     author: "Landon",
-    siteUrl: "https://www.alvalens.my.id",
+    siteUrl: "https://landon-portfolio-eta.vercel.app/",
     applicationName: "Landon",
 
     keywords: [
 		"landon"
 	],
 
-    openGraph: {
+	openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
+		url: "https://landon-portfolio-eta.vercel.app/",
 		title: "Landon | Portofolio",
 		site_name: "Landon | Portofolio",
 		description: "My name is Landon, This is my portfolio website.",
@@ -45,12 +44,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 	return (
 		<html lang="en">
 			<body>
-				<ClientTopProgressBar />
-				<Navbar />
-				{children}
-				<Chat />
-				<Analytics />
-			</body>
-		</html>
+					<ClientTopProgressBar />
+					<Navbar />
+					{children}
+					<Analytics />
+				</body>
+			</html>
 	);
 }

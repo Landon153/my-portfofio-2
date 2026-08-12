@@ -8,7 +8,7 @@
         "The project involved transforming a complex B2B service offering into a responsive and user-friendly corporate website. The interface was organized into clearly defined service sections with multilingual content, conversion-focused calls to action, and interactive estimation features, enabling visitors to quickly understand the platform's value and identify the solutions most relevant to their business needs.",
         "From a development perspective, the project focused on responsive behavior, reusable UI components, maintainable frontend architecture, performance, and usability across different devices. The resulting website provides DiGiTRAD with a professional global presence while effectively communicating its mission to make cross-border trade simpler, faster, and more accessible."
       ],
-      "year": "2025",
+      "year": "2026",
       "preview": "https://digitrad.world/en",
       "code": "",
       "thumbnail": "/image/projects/web/digitrad-marketplace/digitrad-marketplace-thumbnail.png",
@@ -87,7 +87,7 @@
       "desc": [
         "Vivid is an affiliate advertising platform that connects users, publishers, and major Korean brands through performance-driven promotional campaigns. The platform enables brands to showcase products, run targeted offers, and expand their reach through affiliate partners, while users can discover promotions, engage with branded content, and access exclusive deals. The project focused on building a responsive and scalable web experience with campaign management, brand showcases, tracking flows, conversion-focused interfaces, and reusable components to support a growing network of advertisers and affiliate partners."
       ],
-      "year": "2025",
+      "year": "2023",
       "preview": "",
       "code": "",
       "thumbnail": "/image/projects/web/vivid-plus/vivid-plus-thumbnail.png",
@@ -115,7 +115,7 @@
         "The platform enhances the offline discovery experience through interactive maps, venue details, user reviews, reservation-related information, and community-driven updates. By combining real-time content with personalized recommendations, Prezem helps users decide where to go, what to experience, and which events are worth visiting.",
         "From a development perspective, the project focused on delivering a smooth mobile experience with responsive interfaces, map-based navigation, reusable UI components, dynamic content handling, and user-friendly interaction flows. The result is an engaging platform that connects digital discovery with real-world experiences while supporting a growing ecosystem of events, venues, and local communities."
       ],
-      "year": "2025",
+      "year": "2022",
       "preview": "https://apps.apple.com/kr/app/%ED%94%84%EB%A0%88%EC%A0%AC-no-1-%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4-%EC%A0%95%EB%B3%B4-%EC%95%B1/id6446088313",
       "code": "",
       "thumbnail": "/image/projects/web/prezem/prezem-thumbnail.png",
@@ -143,7 +143,7 @@
         "The platform also provides transparent wedding product listings and reservation experiences, helping users discover and compare services from different brands more easily. In addition, its anonymous community, NoName, creates a space where users can exchange real wedding experiences, recommendations, and practical information, reducing the information gap that often makes wedding preparation complicated and stressful.",
         "From a development perspective, the project focused on building a mobile-first and highly interactive experience with reusable UI components, dynamic wedding planning workflows, brand and product discovery, reservation flows, community features, and personalized user data. The resulting platform brings planning, discovery, booking, and community interaction into a unified digital experience, making wedding preparation more organized, transparent, and enjoyable."
       ],
-      "year": "2025",
+      "year": "2024",
       "preview": "https://honeen.com/",
       "code": "",
       "thumbnail": "/image/projects/web/honeen/honeen-thumbnail.png",
@@ -172,7 +172,7 @@
         "The platform supports different stages of the learning process, including lesson preparation, in-class activities, collaborative learning, assessments, homework, review, and supplementary study. Teachers can customize class schedules, distribute subject-specific learning resources, use concept videos and interactive learning cards, and provide personalized materials based on students' progress and learning levels.",
         "From a development perspective, the project focused on creating an intuitive education-focused interface capable of handling structured course content, classroom schedules, learning materials, assignments, progress information, and teacher-student interactions. The resulting application provides schools with a centralized digital learning environment that supports both classroom activities and independent study across mobile devices."
       ],
-      "year": "2025",
+      "year": "2024",
       "preview": "https://apps.apple.com/kr/app/%EB%AF%B8%EB%9E%98%EC%97%94-%EC%B4%88%EC%BD%94%ED%81%B4%EB%9E%98%EC%8A%A4-%ED%95%99%EA%B5%90-%EB%B0%8F-%EA%B8%B0%EA%B4%80%EC%9A%A9/id6474421602?l=en-GB",
       "code": "",
       "thumbnail": "/image/projects/web/miraen/miraen-thumbnail.png",
@@ -198,7 +198,7 @@
       "desc": [
         "OCMR is an e-commerce and service platform focused on luxury product care, repair, and restoration, helping customers extend the life of high-end fashion items such as bags, shoes, accessories, and other premium goods. The platform enables users to explore repair services, submit product details, receive service recommendations, track their repair process, and manage orders through a streamlined digital experience. The project focused on building a premium, user-friendly interface with clear service presentation, responsive layouts, order and request flows, product information management, and reusable components that reflect the quality and trust expected from a luxury-focused service."
       ],
-      "year": "2025",
+      "year": "2022",
       "preview": "",
       "code": "",
       "thumbnail": "/image/projects/web/ocmr/ocmr-thumbnail.png",
@@ -228,7 +228,7 @@
         "The platform goes beyond traditional digital collectibles by supporting art-focused NFTs as well as utility-based assets connected to real-world products, coupons, and tickets. Users can discover new collections, participate in limited releases and promotional events, search the marketplace, and interact with a growing ecosystem of creators and digital content through a centralized experience.",
         "From a development perspective, the project focused on building a responsive and visually engaging marketplace experience with reusable UI components, collection and NFT detail views, search and discovery flows, event-driven content, user authentication, and creator-focused interfaces. The resulting platform makes blockchain-based digital assets easier to discover and interact with while providing a scalable foundation for NFT commerce, promotional campaigns, and creator ecosystems."
       ],
-      "year": "2025",
+      "year": "2022",
       "preview": "https://www.metagalaxia.kr/",
       "code": "",
       "thumbnail": "/image/projects/web/metagalaxia-marketplace/metagalaxia-marketplace-thumbnail.png",
@@ -253,7 +253,7 @@
       "desc": [
         "PayME Merchant Dashboard is a web-based management platform designed for merchants to monitor and operate their payment activities from a centralized workspace. The system enables merchants to manage account and business information, create and share payment links, track transactions, review payment statuses, and analyze key performance metrics through reports and visual dashboards. The project focused on building a clear and efficient admin experience with reusable UI components, data tables, filtering and search, transaction detail views, statistics, and responsive layouts, helping merchants manage daily operations and gain better visibility into their payment performance."
       ],
-      "year": "2025",
+      "year": "2021",
       "preview": "https://mc.payme.vn/login",
       "code": "",
       "thumbnail": "/image/projects/web/payme-merchant-dashboard/payme-merchant-dashboard-thumbnail.png",
@@ -283,7 +283,7 @@
         "The platform connects tuition information with a wide network of payment channels and uses unique SSC IDs to identify students and retrieve corresponding payment details. By centralizing tuition payment instructions and supporting services such as ZaloPay, ShopeePay, banking apps, and QR-based transfers, the system helps schools improve fee collection efficiency while giving parents greater flexibility in how they make payments.",
         "From a development perspective, the project focused on building a clear and responsive education-finance experience with tuition information management, payment workflows, student identification, transaction-related interfaces, and reusable UI components. The resulting platform supports the digitalization of school financial operations and provides a more convenient, transparent, and scalable way for educational institutions to manage tuition payments."
       ],
-      "year": "2025",
+      "year": "2021",
       "preview": "http://hocphi.dcv.vn/",
       "code": "",
       "thumbnail": "/image/projects/web/sscc-sims/sscc-sims-thumbnail.png",
@@ -312,7 +312,7 @@
         "The project involved translating a complex fintech and international trade workflow into a clear, conversion-focused web experience. The content was structured around business challenges, service benefits, settlement architecture, step-by-step transaction flows, comparisons, and frequently asked questions, making concepts such as stablecoins, eBL, escrow, and milestone-based payment releases easier for business users to understand.",
         "From a development perspective, the work focused on responsive layouts, reusable content sections, multilingual presentation, accessible interactions, performance, and maintainable frontend implementation. The resulting product pages communicate the platform's technical value without overwhelming visitors, while guiding prospective clients from identifying their trade payment challenges to understanding the solution and submitting an inquiry."
       ],
-      "year": "2025",
+      "year": "2026",
       "preview": "https://digitrad.trade/payment",
       "code": "",
       "thumbnail": "/image/projects/web/standage-payment/standage-payment-thumbnail.png",
@@ -345,7 +345,7 @@
         "The project involved organizing a broad range of corporate and service information into a structured, user-friendly digital experience. Dedicated sections for services, implementation case studies, seminars, company information, recruitment, and inquiries help different audiences quickly discover relevant content, understand STANDAGE's business value, and navigate naturally toward the appropriate service or contact channel.",
         "From a development perspective, the implementation focused on responsive layouts, reusable content components, multilingual navigation, intuitive information architecture, performance, and long-term maintainability. The resulting website creates a consistent digital identity across STANDAGE's service ecosystem while serving as a scalable communication platform for corporate updates, customer success stories, events, recruitment, and business inquiries."
       ],
-      "year": "2025",
+      "year": "2026",
       "preview": "https://wp.standage.co.jp/us/",
       "code": "",
       "thumbnail": "/image/projects/web/standage-logistic/standage-logistic-thumbnail.png",
@@ -376,7 +376,7 @@
         "The project involved translating complex forwarding processes into an intuitive digital experience for two key user groups. Shippers can request and compare quotations from multiple forwarders, confirm bookings, track progress, and maintain shipment audit records, while forwarders can manage rate databases, automate quotation generation, standardize margin rules, and coordinate sales, operations, and accounting through a unified case-management flow.",
         "From a development perspective, the implementation focused on responsive data-rich interfaces, reusable UI components, clear status visualization, role-based workflows, multilingual content, performance, and maintainable frontend architecture. The resulting platform improves operational accuracy and collaboration while providing a scalable foundation for integrations with ERP systems, transportation management tools, customs partners, and other services within the DigiTrad ecosystem."
       ],
-      "year": "2025",
+      "year": "2026",
       "preview": "https://digitrad.trade/forwarding-pro/",
       "code": "",
       "thumbnail": "/image/projects/web/standage-forwarding-pro/standage-forwarding-pro-thumbnail.png",
@@ -406,7 +406,7 @@
         "The platform extends this experience with features such as PayME Keyboard and PayME Link. PayME Keyboard enables users to create and complete payment requests directly while chatting, while PayME Link allows individuals and businesses to create personalized payment pages without building a website or integrating a separate payment system.",
         "From a development perspective, the project focused on building a secure and intuitive fintech experience with streamlined transaction flows, responsive mobile interfaces, payment request management, deep-link interactions, personalized payment pages, and reusable UI components. The resulting application makes digital payments more accessible for both individual users and online merchants while supporting fast, convenient transactions across multiple communication channels."
       ],
-      "year": "2025",
+      "year": "2021",
       "preview": "https://play.google.com/store/apps/details?id=com.payme.app.user&hl=vi",
       "code": "",
       "thumbnail": "/image/projects/web/payme-e-wallet/payme-e-wallet-thumbnail.png",
@@ -432,7 +432,7 @@
       "desc": [
         "This project is one of my freelance projects. This project is a landing page for Vocational Inter-cultural Camp event held by Vocational Faculty of Universitas Negeri Malang. The website is built using Next.js, Javascript, and Tailwind CSS.", "The website is mainly frontend project, which is already using responsive design. The website has a few features such carousel, and a few animations. The website also has a few pages such as home, topic, and speaker page."
       ],
-      "year": "2023",
+      "year": "2019",
       "preview": "https://inter-cultural-camp.vercel.app",
       "thumbnail": "/image/projects/web/vicc/vicc-thumbnail.jpg",
       "images": [

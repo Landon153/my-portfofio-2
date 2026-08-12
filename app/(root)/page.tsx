@@ -95,7 +95,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
+										SWE Full Stack Developer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] "
@@ -105,11 +105,8 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;am Landon, A fullstack developer specializing in
-										modern Web Development with a growing focus on Artificial
-										Intelligence. Passionate about building scalable,
-										user-friendly web applications and exploring AI technologies
-										such as generative models and LLM integration.
+										Hi! I&rsquo;am Landon, A SWE fullstack developer specializing in
+										modern Web Development with a growing focus on Artificial Intelligence and Web3. I'm passionate about building scalable, user-friendly applications and exploring cutting-edge technologies such as generative AI, LLM integration, blockchain, smart contracts, and decentralized applications (dApps).
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -120,15 +117,6 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										<Button variation="primary">
-											<Link
-												href={"/docs/NguyenThanhDatResume.pdf"}
-												target="_blank"
-												rel="noopener noreferrer"
-												download>
-												Download CV
-											</Link>
-										</Button>
-										<Button variation="secondary">
 											<a href="#contact">Contact Me</a>
 										</Button>
 									</motion.div>
@@ -345,18 +333,19 @@ const MyPage = () => {
 											questions or just want to say hi.
 										</span>
 									</motion.p>
-									<motion.p
-										className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 "
-										initial={{ x: -100, opacity: 0 }}
-										whileInView={{ x: 0, opacity: 1 }}
-										transition={{
-											delay: 0.3,
-											type: "spring",
-										}}>
-										<a href="datnguyen2097@gmail.com?subject=Hello&body=Hello Landon,">
-											datnguyen2097@gmail.com
-										</a>
-									</motion.p>
+										<motion.p
+											className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 flex flex-col gap-2"
+											initial={{ x: -100, opacity: 0 }}
+											whileInView={{ x: 0, opacity: 1 }}
+											transition={{
+												delay: 0.3,
+												type: "spring",
+											}}>
+											<a href="mailto:datnguyen2097@gmail.com?subject=Hello&body=Hello Landon,">
+												datnguyen2097@gmail.com
+											</a>
+											<a href="tel:+84778599963">+84 778599963</a>
+										</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a

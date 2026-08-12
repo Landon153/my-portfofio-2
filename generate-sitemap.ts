@@ -3,7 +3,7 @@ const { SitemapStream, streamToPromise } = require("sitemap");
 
 async function generateSitemap() {
 	const sitemap = new SitemapStream({
-		hostname: "https://alvalens.my.id/",
+		hostname: "https://landon-portfolio-eta.vercel.app/",
 	});
 
 	// Add URLs to your sitemap

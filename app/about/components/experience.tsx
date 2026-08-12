@@ -13,7 +13,7 @@ const experiences = [
 	{
 		id: 1,
 		startDate: "Jan 2025",
-		endDate: "Jul 2026",
+		endDate: "Aug 2026",
 		company: "株式会社STANDAGE / STANDAGE, Inc.",
 		logo: StandageLogo,
 		logoAlt: "STANDAGE logo",
@@ -187,31 +187,29 @@ function Title() {
 function TimelineCard({ experience, index, isEven }) {
 	return (
 		<motion.div
-			initial={{ opacity: 0, y: -20 }}
-			whileInView={{ opacity: 1, y: 0 }}
-			transition={{ delay: index * 0.15, duration: 0.5 }}
-			className={`flex ps-10 md:ps-0 ${
-				isEven
-					? "md:justify-center md:translate-x-68"
-					: "md:justify-center md:-translate-x-68"
-			} justify-center mb-4`}>
-			<div className="bg-gradient-to-r from-black to-gray-800 text-white px-5 md:px-12 py-3 rounded-xl shadow-lg border border-gray-600 max-w-[calc(100vw-5rem)] md:max-w-3xl     ">
-				<div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
-					<div className="text-center">
-						<div className="text-sm font-bold">{experience.startDate}</div>
-						<div className="text-xs text-gray-300 ">Start</div>
-					</div>
-					<div className="w-px h-8 bg-gray-500 "></div>
-					<div className="text-center">
-						<div className="text-sm font-bold">{experience.endDate}</div>
-						<div className="text-xs text-gray-300 ">End</div>
-					</div>
-					<div className="w-px h-8 bg-gray-500 "></div>
-					<div className="text-center max-w-48 md:max-w-xs">
-						<div className="text-sm font-medium text-gray-400 ">
-							{experience.location}
+				initial={{ opacity: 0, y: -20 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				transition={{ delay: index * 0.15, duration: 0.5 }}
+				className={`relative mb-3 md:mb-4 ${
+					isEven ? "md:ml-auto md:pl-12" : "md:mr-auto md:pr-12"
+				} md:w-1/2`}>
+				<div className="ml-12 md:ml-0 bg-black text-white px-4 md:px-8 py-2.5 rounded-xl shadow-lg border border-black/80">
+					<div className="grid w-full grid-cols-[1fr_auto_1fr] items-center gap-3 md:grid-cols-[1fr_auto_1fr_auto_1.35fr] md:gap-5">
+						<div className="min-w-0 text-center">
+							<div className="text-sm font-bold">{experience.startDate}</div>
+							<div className="text-xs text-gray-300 ">Start</div>
 						</div>
-						<div className="text-xs text-gray-300 ">Location</div>
+						<div className="w-px h-8 bg-gray-500 "></div>
+						<div className="min-w-0 text-center">
+							<div className="text-sm font-bold">{experience.endDate}</div>
+							<div className="text-xs text-gray-300 ">End</div>
+						</div>
+						<div className="hidden w-px h-8 bg-gray-500 md:block"></div>
+						<div className="col-span-3 min-w-0 text-center md:col-span-1">
+							<div className="text-sm font-medium text-gray-400">
+								{experience.location}
+							</div>
+							<div className="text-xs text-gray-300 ">Location</div>
 					</div>
 				</div>
 			</div>
@@ -229,10 +227,10 @@ function ExperienceCard({ experience, index, isEven }) {
 				isEven ? "md:ml-auto md:pl-12" : "md:mr-auto md:pr-12"
 			} md:w-1/2`}>
 			{" "}
-			{/* Card */}
-			<div
-				className={`bg-white/20 backdrop-blur-sm border border-gray-300/30 rounded-2xl p-6 shadow-lg 
-				hover:shadow-xl hover:bg-white/30 transition-all duration-300 ml-12 md:ml-0    `}>
+				{/* Card */}
+				<div
+					className={`bg-white/20 backdrop-blur-sm border border-gray-300/30 rounded-2xl p-5 md:p-6 shadow-lg 
+					hover:shadow-xl hover:bg-white/30 transition-all duration-300 ml-12 md:ml-0    `}>
 				{/* Company & Position */}
 				<div className="mb-4 flex items-start gap-4">
 					<div className="flex h-16 w-16 flex-none items-center justify-center overflow-hidden rounded-xl border border-gray-300/60 bg-white p-2 shadow-sm  ">
@@ -314,7 +312,7 @@ export default function Experience() {
 					{/* Mobile timeline line */}
 					<div className="md:hidden absolute left-0 w-1 bg-gradient-to-b from-black via-gray-400 to-transparent h-full  "></div>{" "}
 					{/* Experience cards */}
-					<div className="space-y-12 md:space-y-16 relative">
+						<div className="space-y-10 md:space-y-14 relative">
 						<AnimatePresence>
 							{displayedExperiences.map((experience, index) => (
 								<div key={experience.id} className="relative">
@@ -328,8 +326,8 @@ export default function Experience() {
 									{/* Timeline dot - positioned at the start of the experience card */}
 									<div
 										className={`absolute w-6 h-6 bg-black rounded-full border-4 border-white shadow-lg z-30
-										md:left-1/2 md:-translate-x-1/2 md:top-4
-										left-0 -translate-x-1/2 top-5  `}
+                      md:left-1/2 md:-translate-x-1/2 md:top-4
+                      left-0 -translate-x-1/2 top-5  `}
 									/>
 
 									{/* Experience content card */}

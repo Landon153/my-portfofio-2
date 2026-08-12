@@ -11,7 +11,6 @@ This is my debut project utilizing Next.js, a portfolio website featuring four p
 * **Smooth Animation:** Smooth page scroll and scroll trigger animation.
 * **Smooth Page Transition:** Smooth page transition with prefetching feature of next js.
 * **Dynamic Data:** Read the project data from JSON file instead of directly implemented the data.
-* **Intelliticks chat widget:** Chat with owner of the web realtime.
 * **Spotify realtime widget:** Show what song youre playing in this web.
 
 ## Installation
@@ -46,26 +45,7 @@ This is my debut project utilizing Next.js, a portfolio website featuring four p
    pnpm next dev
    ```
 
-6. Update the Intelliticks chat widget script in components/Chat.jsx, with your own
-
-   ```javascript
-    "use client"
-    import { useEffect } from "react";
-
-    // Component for Intelliticks chat widget
-    const Chat = () => {
-     useEffect(() => {
-      // Replace the Intelliticks script here
-
-     }, []);
-
-     return null;
-    };
-
-    export default Chat;
-   ```
-
-7. Set env.local by copying env.example and fill the variable
+6. Set env.local by copying env.example and fill the variable
 
    ```
    NEXT_PUBLIC_SPOTIFY_CLIENT_ID=
@@ -101,10 +81,6 @@ The contact page allows users to get in touch with you. You can provide contact 
 * Project details: See the main project detail by clicking the project image.
 
 Feel free to customize and expand upon these sections and subpages to suit your needs and showcase your unique skills and projects.
-
-### Intelliticks chat widget
-
-Enjoy chat realtime with ease using Intelliticks (<https://app.intelliticks.com/>)
 
 ## Contributing
 

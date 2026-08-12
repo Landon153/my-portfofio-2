@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.alvalens.my.id/sitemap2.xml
+Sitemap: https://landon-portfolio-eta.vercel.app/sitemap2.xml
