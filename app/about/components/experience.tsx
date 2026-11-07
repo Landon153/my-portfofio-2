@@ -13,7 +13,7 @@ const experiences = [
 	{
 		id: 1,
 		startDate: "Jan 2025",
-		endDate: "Aug 2026",
+		endDate: "October 2026",
 		company: "株式会社STANDAGE / STANDAGE, Inc.",
 		logo: StandageLogo,
 		logoAlt: "STANDAGE logo",
